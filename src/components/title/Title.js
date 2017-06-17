@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Title extends Component {
 
     render(){
-        let {title, children} = this.props;
+        let {children} = this.props;
 
         return (
             <div className="title">
